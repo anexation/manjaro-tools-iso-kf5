@@ -1,0 +1,14 @@
+content   kdewallet                 chrome/content/
+overlay   chrome://browser/content/browser.xul chrome://kdewallet/content/browser.xul
+locale    kdewallet   en-US         chrome/locale/en-US/
+locale    kdewallet   es-ES         chrome/locale/es-ES/
+locale    kdewallet   de-DE         chrome/locale/de-DE/
+locale    kdewallet   fr-FR         chrome/locale/fr-FR/
+locale    kdewallet   pt-BR         chrome/locale/pt-BR/
+resource  kdewallet   ./
+resource  libkdewallet components/libkdewallet_x86.so abi=Linux_x86-gcc3
+resource  libkdewallet components/libkdewallet_x86_64.so abi=Linux_x86_64-gcc3
+
+component {da355706-2b26-4682-be76-d6871312d3a1} components/KDEWalletStorage.js
+contract @guillermo.molina/kwallet;1 {da355706-2b26-4682-be76-d6871312d3a1}
+category login-manager-storage nsILoginManagerStorage @guillermo.molina/kwallet;1

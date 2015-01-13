@@ -1,0 +1,4 @@
+services.addons.mozilla.org:HSTS	1	16446	1452486573130,1,0
+avatars1.githubusercontent.com:HSTS	1	16446	1423542518722,1,0
+blocklist.addons.mozilla.org:HSTS	0	16441	1452082954344,1,0
+greasyfork.org:HSTS	0	16441	1452082834519,1,0
