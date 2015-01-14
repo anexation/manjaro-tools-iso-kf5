@@ -114,8 +114,6 @@ ttf-inconsolata
 ## Applications
 imagewriter
 firefox-kde
-thunderbird-kde
-thunderbird-firetray
 firefox-firetray
 flashplugin
 flareget
@@ -301,10 +299,11 @@ libkpeople-git
 libksane-frameworks-git
 libkscreen-git
 libksysguard-git
-menda
-menda-kde4
-menda-plasma-desktop
-menda-plasma-look-and-feel
+menda-git
+menda-kde4-git
+menda-plasma-desktop-git
+menda-plasma-look-and-feel-git
+xcursor-menda-git
 milou-git
 npapi-vlc-git
 octopi-frameworks-git
@@ -328,7 +327,7 @@ qca-qt5
 qtermwidget
 qterminal
 samba-mounter-frameworks-git
-sddm-menda-theme
+sddm-menda-theme-git
 signon-kwallet-extension-frameworks-git
 signon-plugin-oauth2-qt5
 signon-ui-qt5
