@@ -25,6 +25,7 @@ BorderActivateSphere=9
 BorderActivate=9
 
 [Effect-PresentWindows]
+Accuracy=3
 BorderActivate=7
 BorderActivateAll=9
 BorderActivateClass=9
@@ -121,6 +122,6 @@ WindowSnapZone=10
 [org.kde.kdecoration2]
 BorderSize=Normal
 ButtonsOnLeft=MS
-ButtonsOnRight=FIAX
+ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.menda

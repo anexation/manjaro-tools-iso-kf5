@@ -16,10 +16,11 @@ Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
 Sleep=Sleep,Sleep,Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 _k_friendly_name=kded5
+display=Display,Display,Switch Display
 
 [khotkeys]
 _k_friendly_name=khotkeys
-{21d86ebd-774e-43bb-ba96-3bb30ac46bb6}=Print,none,PrintScreen
+{a556b52f-63e5-426c-830f-4eaa259822be}=Print,none,PrintScreen
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
 
 [kmix]
@@ -40,7 +41,7 @@ run command on clipboard contents=Alt+Shift+F2,Alt+Shift+F2,Run Command on clipb
 
 [ksmserver]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Halt Without Confirmation
-Lock Session=Screensaver\tCtrl+Alt+L,Screensaver\tCtrl+Alt+L,Lock Session
+Lock Session=Screensaver\tCtrl+Alt+L,Ctrl+Alt+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,none,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
@@ -200,9 +201,13 @@ clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents...
+manage activities=Meta+Q,Meta+Q,Activities...
+next activity=Meta+Tab,Meta+Tab,Next Activity
+previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Previous Activity
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Dashboard
 show-on-mouse-pos=none,none,Open Klipper at Mouse Position
+stop current activity=Meta+S,Meta+S,Stop Current Activity
 
 [yakuake]
 _k_friendly_name=yakuake

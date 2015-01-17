@@ -1,9 +1,9 @@
 #! /bin/sh
-# kcminputrc Mouse cursorTheme 'menda_cursors'
-kcminputrc_mouse_cursortheme=menda_cursors
+# kcminputrc Mouse cursorTheme 'breeze_cursors'
+kcminputrc_mouse_cursortheme=Menda-Cursor
 # kcminputrc Mouse cursorSize ''
 kcminputrc_mouse_cursorsize=0
-# ksplashrc KSplash Theme Menda
+# ksplashrc KSplash Theme Breeze
 ksplashrc_ksplash_theme=org.kde.menda.desktop
 # ksplashrc KSplash Engine KSplashQML
 ksplashrc_ksplash_engine=KSplashQML
