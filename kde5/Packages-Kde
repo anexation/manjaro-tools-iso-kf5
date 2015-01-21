@@ -190,7 +190,6 @@ kdebase-runtime
 
 ## Plasma 5 Manjaro Repo Packages
 plasma-desktop
-plasma-desktop
 plasma-framework
 plasma-nm
 networkmanager-qt
@@ -275,7 +274,6 @@ solid
 sonnet
 systemsettings
 threadweaver
-kbookmarks
 
 akonadi
 akonadi-calendar
@@ -291,10 +289,10 @@ kate
 kcalc-frameworks
 kcalcore
 kcalutils
-kcm-touchpad
+kcm-touchpad-frameworks
 kde-gtk-config-frameworks
 kdeconnect-frameworks
-kdecoration-
+kdecoration
 kdepasswd-frameworks
 kdepimlibs-frameworks
 kdepim-frameworks
@@ -314,8 +312,8 @@ konqueror-frameworks
 konsole
 konversation-frameworks
 kpimtextedit
-ksreeen-frameworks
-ksnapshot-frameworks
+kscreen-frameworks
+ksnapshot
 ktnef
 libbluedevil-frameworks
 libkcddb-frameworks
@@ -340,21 +338,21 @@ yakuake-frameworks
 kcontacts
 kaccounts-providers
 kaccounts-integration
-libkpeople
+libkpeople-frameworks
 signon-kwallet-extension-frameworks
 signon-plugin-oauth2-qt5
 signon-ui-qt5
-telepathy-kde-accounts-kcm
-telepathy-kde-approver
-telepathy-kde-auth-handler
-telepathy-kde-common-internals
-telepathy-kde-contact-list
-telepathy-kde-contact-runner
-telepathy-kde-desktop-applets
-telepathy-kde-filetransfer-handler
-telepathy-kde-integration-module
-telepathy-kde-send-file
-telepathy-kde-text-ui
+telepathy-kde-accounts-kcm-frameworks
+telepathy-kde-approver-frameworks
+telepathy-kde-auth-handler-frameworks
+telepathy-kde-common-internals-frameworks
+telepathy-kde-contact-list-frameworks
+telepathy-kde-contact-runner-frameworks
+telepathy-kde-desktop-applets-frameworks
+telepathy-kde-filetransfer-handler-frameworks
+telepathy-kde-integration-module-frameworks
+telepathy-kde-send-file-frameworks
+telepathy-kde-text-ui-frameworks
 telepathy-qt4
 telepathy-qt5
 telepathy-gabble
@@ -369,6 +367,7 @@ telepathy-glib
 
 
 # Partition
+partitionmanager
 gparted
 jfsutils
 f2fs-tools
